@@ -48,7 +48,7 @@ const UncleMike1 = () => {
             <MDBTypography tag='div' className='mr-auto mb-5' variant='h4' >
                 Price: {book.price}
             </MDBTypography>
-            <div className='mb-3 d-grid'><MDBBtn href={book.link} color='warning'>Buy</MDBBtn></div>
+            <div className='mb-2 d-grid'><MDBBtn href={book.link} color='warning'>Buy</MDBBtn></div>
         </MDBCol>
 
     </MDBRow>
