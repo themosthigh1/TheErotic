@@ -25,14 +25,14 @@ const MikeMexicans = () => {
             </MDBTypography>
         </MDBRow>
         <MDBRow>
-            <MDBCol size='6'>
+            <MDBCol size='1' md='6'>
                 <Image 
                     src={book.bookCover} 
                     className='img-fluid mb-5' 
                     style={{height: '500px', width: '800px'}}
                 />
             </MDBCol>
-            <MDBCol size='6'>
+            <MDBCol size='1' md='6'>
                 <MDBTypography tag='div' className='mr-auto' variant='h4' >
                     Description:
                 </MDBTypography>
