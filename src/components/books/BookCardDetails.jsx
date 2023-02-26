@@ -1,5 +1,4 @@
 
-import { useRouter } from 'next/router';
 import Link from 'next/link';
 import Image from 'next/image';
 import {MDBCard, MDBRipple, MDBCardImage, MDBCardBody, MDBCardTitle, MDBCardSubTitle,
@@ -14,13 +13,13 @@ const BookCardDetails = ({bookTitle,bookCover,price,description,link,id,internal
     <Image position='top' src={bookCover} className='img-fluid' alt='...' 
         style={{height: '261px', width: '100%'}}
     />
-    <a>
+    <Link href={internalLink}>
         <div className='mask' style={{ backgroundColor: 'rgba(0, 0, 0, 0.50)', color: 'white' }}>
             <div className='d-flex justify-content-center align-items-center h-100'>
             <MDBCardTitle>{bookTitle}</MDBCardTitle>
             </div>
         </div>
-    </a>
+    </Link>
     </MDBRipple>
     <MDBCardBody>
         <Link href={internalLink} className='text-dark'><MDBCardTitle>{bookTitle}</MDBCardTitle></Link>
