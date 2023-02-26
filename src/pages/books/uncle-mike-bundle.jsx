@@ -43,7 +43,7 @@ const MikeBundle = () => {
             <MDBTypography tag='p' className='pb-3'>
                 {book.author} 
             </MDBTypography>
-            <MDBTypography tag='div' className='mr-auto mb-5' variant='h4' >
+            <MDBTypography tag='div' className='mr-auto mb-2' variant='h4' >
                 Price: {book.price}
             </MDBTypography>
             <div className='mb-2 d-grid'><MDBBtn href={book.link} color='warning'>Buy</MDBBtn></div>
