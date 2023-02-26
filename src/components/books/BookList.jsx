@@ -4,11 +4,7 @@ import {MDBCard, MDBRipple, MDBCardImage, MDBCardBody, MDBCardTitle, MDBCardSubT
 import Image from 'next/image';
 import Link from 'next/link';
 
-
-
-    
-
-const BookList = ({bookTitle,bookCover,price,description,link,id,internalLink}) => {
+const BookList = ({bookTitle,bookCover,description,link,id,internalLink}) => {
        
 
   return (
@@ -16,7 +12,7 @@ const BookList = ({bookTitle,bookCover,price,description,link,id,internalLink}) 
         <MDBRow className='g-0'>
         <MDBCol sm='4'>
         <Image position='top' src={bookCover} className='img-fluid' alt='...' 
-        style={{height: '225px', width: '372px'}}
+        style={{height: '225px', maxWidth: '100%'}}
     />
         </MDBCol>
         <MDBCol sm='8'>
