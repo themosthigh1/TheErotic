@@ -7,13 +7,12 @@ import {MDBCard, MDBRipple, MDBCardImage, MDBCardBody, MDBCardTitle, MDBCardSubT
 
 const BookCardDetails = ({bookTitle,bookCover,price,description,link,id,internalLink}) => {
 
-    const router = useRouter()
 
   return (
-    <MDBCard  className='h-100' >
+    <MDBCard  className='h-100 mb-5' >
     <MDBRipple rippleColor='light' rippleTag='div' className='bg-image hover-overlay'>
     <Image position='top' src={bookCover} className='img-fluid' alt='...' 
-        style={{height: '261px', width: '261px'}}
+        style={{height: '261px', width: '100%'}}
     />
     <a>
         <div className='mask' style={{ backgroundColor: 'rgba(0, 0, 0, 0.50)', color: 'white' }}>

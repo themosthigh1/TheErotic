@@ -10,12 +10,12 @@ const BookList = ({bookTitle,bookCover,description,link,id,internalLink}) => {
   return (
     <MDBCard style={{ maxWidth: '100%', maxHeight: '225px' }} className='mb-5'>
         <MDBRow className='g-0'>
-        <MDBCol sm='4'>
-        <Image position='top' src={bookCover} className='img-fluid' alt='...' 
-        style={{height: '225px', width: '372px'}}
+        <MDBCol md='4' size={4}>
+        <Image src={bookCover} className='img-fluid' alt='...' 
+        style={{height: '225px', width: '100%'}}
     />
         </MDBCol>
-        <MDBCol sm='8'>
+        <MDBCol md='8' size={8}>
             <MDBCardBody>
             <MDBCardTitle>{bookTitle}</MDBCardTitle>
             <MDBCardText>

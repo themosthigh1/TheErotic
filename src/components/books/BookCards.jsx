@@ -11,7 +11,7 @@ export default function Cards() {
         <MDBRow>
           <h1 className='text-center'>Uncle Mike Series</h1>
         </MDBRow>
-        <MDBRow className='row-cols-md-4 row-cols-sm-1 g-4 mb-10'>
+        <MDBRow className='row-cols-lg-4 row-cols-md-2 row-cols-xs-1 g-4 mb-10'>
             {details}
         </MDBRow>
       </MDBContainer>

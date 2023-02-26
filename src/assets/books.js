@@ -1,5 +1,5 @@
 import book1 from '../assets/Uncle_Mike_Book_1.png';
-import book2 from '../assets/Uncle_Mike_Book_2.png';
+import book2 from '../assets/Uncle_Mike_Book_2.jpg';
 import book3 from '../assets/unmtmcoversq-2.jpg';
 import book4 from '../assets/umphdcover-4.jpg';
 

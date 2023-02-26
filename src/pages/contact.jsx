@@ -20,7 +20,7 @@ const Contact = () => {
                 label='Email' 
                 id='typeEmail' 
                 type='email'
-                className='mb-5' 
+                className='mb-6' 
                 size='lg'
             />
             <MDBTextArea 

@@ -1,4 +1,4 @@
-import book2 from '../../assets/Uncle_Mike_Book_2.png';
+import book2 from '../../assets/Uncle_Mike_Book_2.jpg';
 import Image from 'next/image';
 import { MDBCol, MDBContainer,MDBRow,MDBTypography,MDBBtn } from 'mdb-react-ui-kit';
 
