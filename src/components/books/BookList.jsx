@@ -12,7 +12,7 @@ const BookList = ({bookTitle,bookCover,description,link,id,internalLink}) => {
         <MDBRow className='g-0'>
         <MDBCol sm='4'>
         <Image position='top' src={bookCover} className='img-fluid' alt='...' 
-        style={{height: '225px', maxWidth: '100%'}}
+        style={{height: '225px', width: '372px'}}
     />
         </MDBCol>
         <MDBCol sm='8'>
