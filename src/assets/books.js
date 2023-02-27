@@ -7,7 +7,7 @@ import book4 from '../assets/umphdcover-4.jpg';
 
 export const books = [
     {
-        bookTitle: 'Uncle Mike: Book 1',
+        bookTitle: 'Uncle Mike: Book One',
         id: 1,
         bookCover: book1,
         price: '$2.99',
@@ -18,7 +18,7 @@ export const books = [
         
     },
     {
-        bookTitle: 'Uncle Mike: Book 2',
+        bookTitle: 'Uncle Mike: Book Two',
         id: 2,
         bookCover: book2,
         price: '$3.49',

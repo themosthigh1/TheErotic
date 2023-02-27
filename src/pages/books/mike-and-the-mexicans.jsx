@@ -36,11 +36,11 @@ const MikeMexicans = () => {
                 <MDBTypography tag='div' className='mr-auto' variant='h4' >
                     Description:
                 </MDBTypography>
-                <MDBTypography tag='p' className=' pb-3  mr-auto' >
-                    {book.description}
-                </MDBTypography>
                 <MDBTypography tag='div' className='mr-auto' variant='h4' >
                     Author:
+                </MDBTypography>
+                <MDBTypography tag='p' className=' pb-3  mr-auto' >
+                    {book.description}
                 </MDBTypography>
                 <MDBTypography tag='p' className='pb-3'>
                     {book.author} 
