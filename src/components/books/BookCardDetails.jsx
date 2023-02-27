@@ -23,7 +23,7 @@ const BookCardDetails = ({bookTitle,bookCover,price,description,link,id,internal
     </MDBRipple>
     <MDBCardBody>
         <Link href={internalLink} className='text-dark'><MDBCardTitle>{bookTitle}</MDBCardTitle></Link>
-        <MDBCardSubTitle className='mb-3'>By: NICK TRAMMELL</MDBCardSubTitle>
+        <MDBCardSubTitle className='mb-3'>By: nIck-tRammell</MDBCardSubTitle>
         <MDBCardText>
             {description}
         </MDBCardText>
