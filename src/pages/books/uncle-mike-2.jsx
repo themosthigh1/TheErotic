@@ -5,7 +5,7 @@ import { MDBCol, MDBContainer,MDBRow,MDBTypography,MDBBtn } from 'mdb-react-ui-k
 const UncleMike2 = () => {
 
     const book =     {
-        bookTitle: 'Uncle Mike: Book 2',
+        bookTitle: 'Uncle Mike: Book Two',
         id: 2,
         bookCover: book2,
         price: '$3.49',

@@ -34,10 +34,10 @@ const MikeMexicans = () => {
             </MDBCol>
             <MDBCol size={12} md='6'>
                 <MDBTypography tag='div' className='mr-auto' variant='h4' >
-                    Description:
+                    Author:
                 </MDBTypography>
                 <MDBTypography tag='div' className='mr-auto' variant='h4' >
-                    Author:
+                    Description:
                 </MDBTypography>
                 <MDBTypography tag='p' className=' pb-3  mr-auto' >
                     {book.description}

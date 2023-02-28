@@ -6,7 +6,7 @@ import Image from 'next/image';
 const UncleMike1 = () => {
 
     const book =     {
-        bookTitle: 'Uncle Mike: Book 1',
+        bookTitle: 'Uncle Mike: Book One',
         id: 1,
         bookCover: book1,
         price: '$2.99',
