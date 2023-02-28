@@ -34,16 +34,16 @@ const UncleMike1 = () => {
             </MDBCol>
             <MDBCol size={12} md='6'>
                 <MDBTypography tag='div' className='mr-auto' variant='h4' >
-                    Description:
-                </MDBTypography>
-                <MDBTypography tag='p' className=' pb-3  mr-auto' >
-                    {book.description}
-                </MDBTypography>
-                <MDBTypography tag='div' className='mr-auto' variant='h4' >
                     Author:
                 </MDBTypography>
                 <MDBTypography tag='p' className='pb-3'>
                     {book.author} 
+                </MDBTypography>
+                <MDBTypography tag='div' className='mr-auto' variant='h4' >
+                    Description:
+                </MDBTypography>
+                <MDBTypography tag='p' className=' pb-3  mr-auto' >
+                    {book.description}
                 </MDBTypography>
                 <MDBTypography tag='div' className='mr-auto mb-2' variant='h4' >
                     Price: {book.price}
